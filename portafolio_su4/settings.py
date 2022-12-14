@@ -130,6 +130,8 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'portafolio_su4/static'),)
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
+CSRF_TRUSTED_ORIGINS = ['https://portafoliosu4-production-9376.up.railway.app']
+
 # Redireccionando despues del login
 LOGIN_URL = 'login'
 LOGIN_REDIRECT_URL = 'portafolio'
