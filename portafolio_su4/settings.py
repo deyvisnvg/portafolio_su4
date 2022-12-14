@@ -135,15 +135,14 @@ LOGIN_URL = 'login'
 LOGIN_REDIRECT_URL = 'portafolio'
 LOGOUT_REDIRECT_URL = 'index'
 
-
 # Conexion DB
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'dbgeneral',
+        'NAME': 'railway',
         'USER': 'root',
-        'PASSWORD': 'nethack',
-        'HOST': 'localhost',
-        'PORT': '3306'
+        'PASSWORD': 'VZDA4LwKFJpbuRTd6ufu',
+        'HOST': 'containers-us-west-168.railway.app',
+        'PORT': '5876'
     }
 }
