@@ -139,7 +139,9 @@ STATICFILES_DIRS = [
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-CSRF_TRUSTED_ORIGINS = ['https://portafoliosu4-production-9376.up.railway.app']
+CSRF_TRUSTED_ORIGINS = [
+    'https://portafoliosu4-production-d975.up.railway.app/'
+]
 
 # Redireccionando despues del login
 LOGIN_URL = 'login'
